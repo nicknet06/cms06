@@ -25,7 +25,8 @@ app = Flask(__name__,
             template_folder='templates')
 
 # Database configuration - Use existing SQLite database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(BASE_DIR, '..', 'db.sqlite3')
+SQLITE_DB_PATH = os.path.abspath(os.path.join(BASE_DIR, '..', 'db.sqlite3'))
+app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{SQLITE_DB_PATH}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JSON_SORT_KEYS'] = False  # Preserve JSON key order
 CORS(app)
@@ -50,7 +51,7 @@ def wait_for_db(retries=5, delay=2):
             try:
                 db.create_all()
                 print(f"Database connection successful! (Attempt {attempt + 1})")
-                print(f"Current time (UTC): 2025-02-16 19:28:58")
+                print(f"Current time (UTC): 2025-02-16 19:49:01")
                 print(f"Current user: nicknet06")
                 return True
             except OperationalError as e:
@@ -65,7 +66,7 @@ def wait_for_db(retries=5, delay=2):
 @app.route('/')
 def home():
     return render_template('home.html',
-                           current_time="2025-02-16 19:28:58",
+                           current_time="2025-02-16 19:49:01",
                            current_user="nicknet06")
 
 
@@ -132,7 +133,7 @@ def chat():
                 return redirect(url_for('chat'))
 
     return render_template('chat.html',
-                           current_time="2025-02-16 19:28:58",
+                           current_time="2025-02-16 19:49:01",
                            current_user="nicknet06")
 
 
@@ -144,7 +145,7 @@ def admin_dashboard():
         return render_template('admin_dashboard.html',
                                reports=reports,
                                services=services,
-                               current_time="2025-02-16 19:28:58",
+                               current_time="2025-02-16 19:49:01",
                                current_user="nicknet06")
     except Exception as e:
         flash(f'Error accessing database: {str(e)}', 'error')
@@ -159,7 +160,18 @@ def get_services():
         print(f"Found {len(services)} active services")  # Debug log
         result = []
         for service in services:
-            service_dict = service.to_dict()
+            service_dict = {
+                'id': service.id,
+                'name': service.name,
+                'service_type': service.service_type,
+                'city': service.city,
+                'latitude': float(service.latitude),
+                'longitude': float(service.longitude),
+                'address': service.address,
+                'phone': service.phone,
+                'is_active': service.is_active,
+                'created_at': service.created_at.isoformat() if service.created_at else None
+            }
             print(f"Converting service: {service_dict['name']}")  # Debug log
             result.append(service_dict)
         print(f"Converted {len(result)} services to JSON")  # Debug log
@@ -181,17 +193,19 @@ def debug_db():
 
             return jsonify({
                 'database_uri': app.config['SQLALCHEMY_DATABASE_URI'],
+                'database_path': SQLITE_DB_PATH,
                 'connection_test': 'success' if db_test else 'no data but connected',
                 'first_record': db_test.to_dict() if db_test else None,
                 'total_records': total_count,
                 'active_records': active_count,
-                'timestamp': datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),
+                'timestamp': "2025-02-16 19:49:01",
             })
     except Exception as e:
         return jsonify({
             'error': str(e),
             'database_uri': app.config['SQLALCHEMY_DATABASE_URI'],
-            'timestamp': datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),
+            'database_path': SQLITE_DB_PATH,
+            'timestamp': "2025-02-16 19:49:01",
         }), 500
 
 
@@ -201,7 +215,7 @@ def admin_reports():
         reports = EmergencyReport.query.order_by(EmergencyReport.created_at.desc()).all()
         return render_template('admin_reports.html',
                                reports=reports,
-                               current_time="2025-02-16 19:28:58",
+                               current_time="2025-02-16 19:49:01",
                                current_user="nicknet06")
     except Exception as e:
         flash(f'Error accessing database: {str(e)}', 'error')
@@ -288,7 +302,7 @@ def list_reports():
 @app.errorhandler(404)
 def not_found_error(error):
     return render_template('404.html',
-                           current_time="2025-02-16 19:28:58",
+                           current_time="2025-02-16 19:49:01",
                            current_user="nicknet06"), 404
 
 
@@ -296,8 +310,15 @@ def not_found_error(error):
 def internal_error(error):
     db.session.rollback()
     return render_template('500.html',
-                           current_time="2025-02-16 19:28:58",
+                           current_time="2025-02-16 19:49:01",
                            current_user="nicknet06"), 500
+
+
+# Initialize database tables before starting
+def init_app():
+    with app.app_context():
+        db.create_all()
+        print("Database tables created.")
 
 
 if __name__ == '__main__':
@@ -305,10 +326,11 @@ if __name__ == '__main__':
     print("--------------------------------")
     print(f"Current working directory: {os.getcwd()}")
     print(f"Base directory: {BASE_DIR}")
+    print(f"Database path: {SQLITE_DB_PATH}")
     print(f"Template folder: {app.template_folder}")
     print(f"Static folder: {app.static_folder}")
     print(f"Upload folder: {UPLOAD_FOLDER}")
-    print(f"Current time (UTC): 2025-02-16 19:28:58")
+    print(f"Current time (UTC): 2025-02-16 19:49:01")
     print(f"Current user: nicknet06")
 
     if os.path.exists(app.template_folder):
@@ -318,6 +340,7 @@ if __name__ == '__main__':
 
     print("\nStarting database connection...")
     wait_for_db()
+    init_app()
 
     print("\nStarting Flask application...")
     app.run(host='0.0.0.0', port=5000, debug=True)
