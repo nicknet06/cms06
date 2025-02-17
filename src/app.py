@@ -339,16 +339,23 @@ def admin_reports():
 
 @app.route('/upload-audio', methods=['POST', 'OPTIONS'])
 def upload_audio():
+    # Handle CORS preflight requests
     if request.method == 'OPTIONS':
         response = app.make_default_options_response()
     else:
         try:
+            # Check if an audio file was included in the request
             if 'audio' not in request.files:
                 return jsonify({'error': 'No audio file'}), 400
 
+            # Get the audio file from the request
             audio_file = request.files['audio']
+
+            # Create a unique filename using current timestamp
             timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
             filename = f'emergency_recording_{timestamp}.wav'
+
+            # Create the full filepath
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
             # Ensure the upload directory exists
@@ -360,14 +367,18 @@ def upload_audio():
             # Log the successful upload
             logging.info(f"Audio file saved: {filename}")
 
+            # Return success response
             return jsonify({
                 'filename': filename,
                 'message': 'Audio uploaded successfully'
             }), 200
+
         except Exception as e:
+            # Log and return any errors that occur
             logging.error(f"Error uploading audio: {str(e)}")
             return jsonify({'error': str(e)}), 500
 
+    # Add CORS headers to the response
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'POST, OPTIONS')
