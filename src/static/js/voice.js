@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const timer = document.getElementById('timer');
     const audioPreview = document.getElementById('audioPreview');
     const audioFilename = document.getElementById('audioFilename');
-    const submitBtn = document.getElementById('submitBtn');
     const emergencyForm = document.getElementById('emergencyForm');
 
     // Recording state variables
@@ -43,7 +42,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Show notification function
-    function showNotification() {
+    function showNotification(options = {}) {
+        const {
+            title = 'Emergency Response',
+            message = 'Help is on the way.',
+            type = 'success',
+            duration = 20000
+        } = options;
+
         // Create notification container if it doesn't exist
         let notificationContainer = document.querySelector('.notification-container');
         if (!notificationContainer) {
@@ -54,14 +60,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Create notification element
         const notification = document.createElement('div');
-        notification.className = 'notification-window';
+        notification.className = `notification-window ${type}`;
         notification.innerHTML = `
             <div class="notification-header">
-                <h3>Emergency Response Dispatched</h3>
+                <h3>${title}</h3>
                 <button class="notification-close">&times;</button>
             </div>
             <div class="notification-body">
-                <p>Help is on the way. Estimated arrival time: 20 minutes.</p>
+                <p>${message}</p>
             </div>
             <div class="notification-progress"></div>
         `;
@@ -73,11 +79,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const closeBtn = notification.querySelector('.notification-close');
         closeBtn.onclick = () => notification.remove();
 
-        // Auto remove after 20 seconds
+        // Auto remove after duration
         setTimeout(() => {
             notification.classList.add('fade-out');
             setTimeout(() => notification.remove(), 500);
-        }, 20000);
+        }, duration);
     }
 
     // Stop recording function
@@ -95,6 +101,88 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
+
+    // Upload audio with form data function
+    async function uploadAudioWithFormData(audioBlob) {
+    const formData = new FormData();
+
+    // Add the audio file
+    formData.append('audio', audioBlob, 'emergency_recording.wav');
+
+    // Add form fields
+    formData.append('name', document.getElementById('name').value || 'Anonymous');
+    formData.append('contact', document.getElementById('contact').value || 'Not provided');
+    formData.append('latitude', document.getElementById('latitude').value || '');
+    formData.append('longitude', document.getElementById('longitude').value || '');
+    formData.append('description', document.getElementById('description').value || '');
+
+    // Get selected language or default to Greek
+    const language = document.getElementById('language')?.value || 'el-GR';
+    formData.append('language', language);
+
+    try {
+        showNotification({
+            title: 'Processing',
+            message: 'Transcribing audio...',
+            type: 'info',
+            duration: 5000
+        });
+
+        const response = await fetch('/upload-audio', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        const data = await response.json();
+        audioFilename.value = data.filename;
+
+        // Update description field with transcription if available
+        if (data.transcription) {
+            const descriptionField = document.getElementById('description');
+            if (descriptionField) {
+                const transcriptionText = `
+Service Used: ${data.transcription.service}
+Language: ${data.transcription.detected_language}
+Transcribed Text:
+${data.transcription.text}`;
+
+                descriptionField.value = transcriptionText;
+            }
+        }
+
+        showNotification({
+            title: 'Emergency Report Created',
+            message: `Emergency report created successfully using ${data.transcription.service}`,
+            type: 'success',
+            duration: 20000
+        });
+
+        // Don't clear the form immediately so user can see the transcription
+        if (!data.transcription) {
+            if (emergencyForm) {
+                emergencyForm.reset();
+            }
+        }
+
+        // Hide audio preview
+        if (audioPreview) {
+            audioPreview.style.display = 'none';
+        }
+
+    } catch (error) {
+        console.error('Error uploading audio:', error);
+        showNotification({
+            title: 'Error',
+            message: 'Failed to submit emergency report. Please try again.',
+            type: 'error',
+            duration: 10000
+        });
+    }
+}
 
     // Record button click handler
     if (recordButton) {
@@ -118,28 +206,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         audioPreview.src = audioUrl;
                         audioPreview.style.display = 'block';
 
-                        // Upload the audio file
-                        const formData = new FormData();
-                        formData.append('audio', audioBlob, 'emergency_recording.wav');
-
-                        try {
-                            const response = await fetch('/upload-audio', {
-                                method: 'POST',
-                                body: formData
-                            });
-
-                            if (!response.ok) {
-                                throw new Error('Network response was not ok');
-                            }
-
-                            const data = await response.json();
-                            audioFilename.value = data.filename;
-                            submitBtn.disabled = false;
-                            showNotification();
-                        } catch (error) {
-                            console.error('Error uploading audio:', error);
-                            alert('Error uploading audio. Please try again.');
-                        }
+                        // Upload audio with form data
+                        await uploadAudioWithFormData(audioBlob);
                     };
 
                     // Start recording
@@ -159,7 +227,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 } catch (error) {
                     console.error('Error accessing microphone:', error);
-                    alert('Could not access microphone. Please ensure you have given permission.');
+                    showNotification({
+                        title: 'Microphone Error',
+                        message: 'Could not access microphone. Please ensure you have given permission.',
+                        type: 'error',
+                        duration: 10000
+                    });
                 }
             } else {
                 await stopRecording();
@@ -167,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Handle form submission
+    // Handle form submission (now optional as audio upload automatically creates report)
     if (emergencyForm) {
         emergencyForm.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -176,30 +249,40 @@ document.addEventListener('DOMContentLoaded', function() {
                 await stopRecording();
             }
 
-            // Get form data
-            const formData = new FormData(emergencyForm);
+            // Only proceed if there's a text description (audio reports handled separately)
+            if (document.getElementById('description').value) {
+                const formData = new FormData(emergencyForm);
 
-            try {
-                const response = await fetch('/chat', {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'X-Requested-With': 'XMLHttpRequest'
-                    }
-                });
+                try {
+                    const response = await fetch('/chat', {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'X-Requested-With': 'XMLHttpRequest'
+                        }
+                    });
 
-                if (response.ok) {
-                    showNotification();
-                    emergencyForm.reset();
-                    if (audioPreview) {
-                        audioPreview.style.display = 'none';
+                    if (response.ok) {
+                        showNotification({
+                            title: 'Emergency Report Created',
+                            message: 'Your emergency has been reported successfully. Help is on the way.',
+                            type: 'success'
+                        });
+                        emergencyForm.reset();
+                        if (audioPreview) {
+                            audioPreview.style.display = 'none';
+                        }
+                    } else {
+                        throw new Error('Failed to submit emergency report');
                     }
-                } else {
-                    throw new Error('Failed to submit emergency report');
+                } catch (error) {
+                    console.error('Error:', error);
+                    showNotification({
+                        title: 'Error',
+                        message: 'Failed to submit emergency report. Please try again.',
+                        type: 'error'
+                    });
                 }
-            } catch (error) {
-                console.error('Error:', error);
-                alert('Error submitting emergency report. Please try again.');
             }
         });
     }

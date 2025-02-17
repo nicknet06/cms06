@@ -2,21 +2,25 @@ from flask import Flask, render_template, request, redirect, url_for, flash, sen
 from flask_cors import CORS
 import logging
 import os
-import time
-from datetime import datetime
-from sqlalchemy.exc import OperationalError
+import speech_recognition as sr
+from pydub import AudioSegment
+import tempfile
+from datetime import datetime, UTC
 from models import *
 
-# Import db and models from models.py
-from models import db, EmergencyService, EmergencyReport, Equipment, Vehicle, Personnel, ResourceRequest
 
+# Configure OpenAI API
 # Get the absolute path to the directory containing app.py
+# Get the absolute path to the src directory
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
-# Create uploads directory if it doesn't exist
-UPLOAD_FOLDER = os.path.join(BASE_DIR, 'audio_uploads')
+# Create audio_reports directory inside src if it doesn't exist
+UPLOAD_FOLDER = os.path.join(BASE_DIR, 'audio_reports')
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
+    print(f"Created audio reports directory at: {UPLOAD_FOLDER}")
+
+# Update the app configuration
 
 # Initialize Flask app
 app = Flask(__name__,
@@ -73,6 +77,18 @@ def home():
 def chat():
     if request.method == 'POST':
         try:
+            # Add debug logging
+            logging.info("Received chat POST request")
+            logging.info(f"Form data: {request.form}")
+
+            name = request.form.get('name', 'Anonymous')
+            contact = request.form.get('contact', 'Not provided')
+            latitude = request.form.get('latitude')
+            longitude = request.form.get('longitude')
+            description = request.form.get('description')
+            audio_filename = request.form.get('audio_filename')
+
+            logging.info(f"Processing emergency report with audio: {audio_filename}")
             name = request.form.get('name', 'Anonymous')
             contact = request.form.get('contact', 'Not provided')
             latitude = request.form.get('latitude')
@@ -337,74 +353,221 @@ def admin_reports():
         return redirect(url_for('home'))
 
 
+def convert_audio_to_wav(audio_path):
+    """Convert audio file to WAV format if needed"""
+    try:
+        # Explicitly set the audio parameters
+        audio = AudioSegment.from_file(
+            audio_path,
+            format='wav',
+            parameters=[
+                '-ac', '1',  # mono
+                '-ar', '16000',  # 16000Hz sample rate
+                '-acodec', 'pcm_s16le'  # 16-bit PCM encoding
+            ]
+        )
+        wav_path = os.path.join(os.path.dirname(audio_path), 'converted_audio.wav')
+
+        # Export with explicit parameters
+        audio.export(
+            wav_path,
+            format='wav',
+            parameters=[
+                '-ac', '1',
+                '-ar', '16000',
+                '-acodec', 'pcm_s16le'
+            ]
+        )
+
+        logging.info(f"Audio converted successfully: {wav_path}")
+        return wav_path
+    except Exception as e:
+        logging.error(f"Audio conversion error: {str(e)}")
+        raise
+
+
+def transcribe_audio(audio_path, language='el-GR'):
+    """
+    Transcribe audio using multiple speech recognition services
+    Falls back to different services if one fails
+    """
+    recognizer = sr.Recognizer()
+
+    try:
+        # Convert audio to WAV if it's not already
+        wav_path = convert_audio_to_wav(audio_path)
+
+        logging.info(f"Attempting to transcribe audio from: {wav_path}")
+
+        with sr.AudioFile(wav_path) as source:
+            # Adjust for ambient noise and increase energy threshold
+            recognizer.adjust_for_ambient_noise(source, duration=0.5)
+            recognizer.energy_threshold = 300  # Increase sensitivity
+
+            # Record the audio file with longer timeout
+            audio = recognizer.record(source)
+
+            transcribed_text = None
+            detected_language = language
+            error_messages = []
+
+            # Try Google Speech Recognition
+            try:
+                logging.info("Attempting Google Speech Recognition...")
+                transcribed_text = recognizer.recognize_google(
+                    audio,
+                    language=language,
+                    show_all=True  # Get detailed response
+                )
+                logging.info(f"Google Speech Recognition result: {transcribed_text}")
+
+                if transcribed_text:
+                    return {
+                        'original': transcribed_text['alternative'][0]['transcript'] if isinstance(transcribed_text,
+                                                                                                   dict) else transcribed_text,
+                        'service': 'Google Speech Recognition',
+                        'detected_language': language
+                    }
+            except sr.RequestError as e:
+                error_messages.append(f"Google Speech API error: {str(e)}")
+            except sr.UnknownValueError:
+                error_messages.append("Google Speech Recognition could not understand audio")
+
+            # Try Sphinx as fallback
+            if not transcribed_text:
+                try:
+                    logging.info("Attempting Sphinx recognition...")
+                    transcribed_text = recognizer.recognize_sphinx(audio)
+                    return {
+                        'original': transcribed_text,
+                        'service': 'Sphinx (offline)',
+                        'detected_language': 'unknown'
+                    }
+                except sr.UnknownValueError:
+                    error_messages.append("Sphinx could not understand audio")
+                except sr.RequestError as e:
+                    error_messages.append(f"Sphinx error: {str(e)}")
+
+            # If all services fail, raise exception with error details
+            if not transcribed_text:
+                raise Exception(f"All transcription services failed: {'; '.join(error_messages)}")
+
+    except Exception as e:
+        logging.error(f"Transcription error: {str(e)}")
+        raise
+
+
 @app.route('/upload-audio', methods=['POST', 'OPTIONS'])
 def upload_audio():
-    # Handle CORS preflight requests
     if request.method == 'OPTIONS':
         response = app.make_default_options_response()
     else:
         try:
-            # Check if an audio file was included in the request
+            logging.info(f"Upload folder path: {app.config['UPLOAD_FOLDER']}")
+
             if 'audio' not in request.files:
+                logging.error("No audio file in request")
                 return jsonify({'error': 'No audio file'}), 400
 
-            # Get the audio file from the request
+            # Get the audio file and form data
             audio_file = request.files['audio']
-
-            # Create a unique filename using current timestamp
-            timestamp = datetime.utcnow().strftime('%Y%m%d_%H%M%S')
+            timestamp = datetime.now(UTC).strftime('%Y%m%d_%H%M%S')
             filename = f'emergency_recording_{timestamp}.wav'
-
-            # Create the full filepath
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
-            # Ensure the upload directory exists
-            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            # Get language from request or default to Greek
+            language = request.form.get('language', 'el-GR')
 
-            # Save the file
+            logging.info(f"Attempting to save audio file to: {filepath}")
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
             audio_file.save(filepath)
 
-            # Log the successful upload
-            logging.info(f"Audio file saved: {filename}")
+            if not os.path.exists(filepath):
+                raise Exception(f"Failed to save file at {filepath}")
 
-            # Return success response
-            return jsonify({
-                'filename': filename,
-                'message': 'Audio uploaded successfully'
-            }), 200
+            logging.info(f"Audio file successfully saved: {filename}")
+
+            # Verify the audio file is readable
+            try:
+                audio = AudioSegment.from_file(filepath)
+                logging.info(f"Audio file verified: duration={len(audio)}ms")
+            except Exception as e:
+                logging.error(f"Audio file verification failed: {str(e)}")
+                raise Exception("Invalid or corrupted audio file")
+
+            # Transcribe the audio
+            try:
+                transcription_result = transcribe_audio(filepath, language)
+                original_text = transcription_result['original']
+                service_used = transcription_result['service']
+                detected_language = transcription_result['detected_language']
+
+                logging.info(f"Audio transcription successful using {service_used}")
+                logging.info(f"Original text: {original_text[:100]}...")
+            except Exception as trans_error:
+                logging.error(f"Transcription failed: {str(trans_error)}")
+                original_text = "Audio transcription failed"
+                service_used = "None"
+                detected_language = "unknown"
+
+            # Create emergency report
+            name = request.form.get('name', 'Anonymous')
+            contact = request.form.get('contact', 'Not provided')
+            latitude = request.form.get('latitude')
+            longitude = request.form.get('longitude')
+
+            # Format description with transcription details
+            description = f"""
+Transcription Service: {service_used}
+Language: {detected_language}
+Text: {original_text}
+            """.strip()
+
+            report = EmergencyReport(
+                name=name,
+                contact=contact,
+                latitude=float(latitude) if latitude else None,
+                longitude=float(longitude) if longitude else None,
+                description=description,
+                audio_filename=filename,
+                created_at=datetime.now(UTC)
+            )
+
+            try:
+                db.session.add(report)
+                db.session.commit()
+                logging.info(f"Emergency report created with ID: {report.id}")
+
+                return jsonify({
+                    'filename': filename,
+                    'message': 'Audio uploaded and emergency report created successfully',
+                    'report_id': report.id,
+                    'transcription': {
+                        'text': original_text,
+                        'service': service_used,
+                        'detected_language': detected_language
+                    },
+                    'timestamp': datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S'),
+                    'user': 'nicknet06'
+                }), 200
+
+            except Exception as db_error:
+                db.session.rollback()
+                logging.error(f"Database error: {str(db_error)}")
+                raise
 
         except Exception as e:
-            # Log and return any errors that occur
-            logging.error(f"Error uploading audio: {str(e)}")
-            return jsonify({'error': str(e)}), 500
+            logging.error(f"Error in upload process: {str(e)}")
+            return jsonify({
+                'error': str(e),
+                'timestamp': datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S'),
+                'user': 'nicknet06'
+            }), 500
 
-    # Add CORS headers to the response
     response.headers.add('Access-Control-Allow-Origin', '*')
     response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
     response.headers.add('Access-Control-Allow-Methods', 'POST, OPTIONS')
     return response
-
-
-@app.route('/api/resources/<int:resource_id>/status', methods=['GET'])
-def get_resource_status(resource_id):
-    try:
-        equipment = Equipment.query.get(resource_id)
-        if equipment:
-            return jsonify({
-                'id': equipment.id,
-                'name': equipment.name,
-                'available': equipment.available,
-                'condition': equipment.condition,
-                'timestamp': "2025-02-17 00:22:26",
-                'user': "nicknet06"
-            })
-        return jsonify({'error': 'Resource not found'}), 404
-    except Exception as e:
-        return jsonify({
-            'error': str(e),
-            'timestamp': "2025-02-17 00:22:26",
-            'user': "nicknet06"
-        }), 500
 
 
 @app.route('/api/resources/requests/<int:request_id>', methods=['PUT'])

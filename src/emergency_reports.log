@@ -5631,3 +5631,1094 @@ TypeError: The view function for 'custom_static' did not return a valid response
 2025-02-17 12:59:31 - 127.0.0.1 - - [17/Feb/2025 12:59:31] "GET /api/debug/db HTTP/1.1" 200 -
 2025-02-17 13:00:01 - 127.0.0.1 - - [17/Feb/2025 13:00:01] "GET /api/debug/db HTTP/1.1" 200 -
 2025-02-17 13:00:31 - 127.0.0.1 - - [17/Feb/2025 13:00:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:01:01 - 127.0.0.1 - - [17/Feb/2025 13:01:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:01:31 - 127.0.0.1 - - [17/Feb/2025 13:01:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:02:01 - 127.0.0.1 - - [17/Feb/2025 13:02:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:02:31 - 127.0.0.1 - - [17/Feb/2025 13:02:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:03:01 - 127.0.0.1 - - [17/Feb/2025 13:03:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:03:31 - 127.0.0.1 - - [17/Feb/2025 13:03:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:04:01 - 127.0.0.1 - - [17/Feb/2025 13:04:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:04:31 - 127.0.0.1 - - [17/Feb/2025 13:04:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:05:01 - 127.0.0.1 - - [17/Feb/2025 13:05:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:05:31 - 127.0.0.1 - - [17/Feb/2025 13:05:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:06:01 - 127.0.0.1 - - [17/Feb/2025 13:06:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:06:31 - 127.0.0.1 - - [17/Feb/2025 13:06:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:07:01 - 127.0.0.1 - - [17/Feb/2025 13:07:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:07:31 - 127.0.0.1 - - [17/Feb/2025 13:07:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:08:01 - 127.0.0.1 - - [17/Feb/2025 13:08:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:08:31 - 127.0.0.1 - - [17/Feb/2025 13:08:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:09:01 - 127.0.0.1 - - [17/Feb/2025 13:09:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:09:31 - 127.0.0.1 - - [17/Feb/2025 13:09:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:10:01 - 127.0.0.1 - - [17/Feb/2025 13:10:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:10:31 - 127.0.0.1 - - [17/Feb/2025 13:10:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:11:01 - 127.0.0.1 - - [17/Feb/2025 13:11:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:11:31 - 127.0.0.1 - - [17/Feb/2025 13:11:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:12:01 - 127.0.0.1 - - [17/Feb/2025 13:12:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:12:31 - 127.0.0.1 - - [17/Feb/2025 13:12:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:13:01 - 127.0.0.1 - - [17/Feb/2025 13:13:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:13:19 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:13:19 -  * Restarting with stat
+2025-02-17 13:13:19 -  * Debugger is active!
+2025-02-17 13:13:19 -  * Debugger PIN: 717-194-834
+2025-02-17 13:13:31 - 127.0.0.1 - - [17/Feb/2025 13:13:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:14:01 - 127.0.0.1 - - [17/Feb/2025 13:14:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:14:10 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:14:10 -  * Restarting with stat
+2025-02-17 13:14:10 -  * Debugger is active!
+2025-02-17 13:14:10 -  * Debugger PIN: 717-194-834
+2025-02-17 13:14:31 - 127.0.0.1 - - [17/Feb/2025 13:14:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:15:01 - 127.0.0.1 - - [17/Feb/2025 13:15:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:15:31 - 127.0.0.1 - - [17/Feb/2025 13:15:31] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:16:01 - 127.0.0.1 - - [17/Feb/2025 13:16:01] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:16:32 - 127.0.0.1 - - [17/Feb/2025 13:16:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:17:02 - 127.0.0.1 - - [17/Feb/2025 13:17:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:17:32 - 127.0.0.1 - - [17/Feb/2025 13:17:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:18:02 - 127.0.0.1 - - [17/Feb/2025 13:18:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:18:32 - 127.0.0.1 - - [17/Feb/2025 13:18:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:19:02 - 127.0.0.1 - - [17/Feb/2025 13:19:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:19:32 - 127.0.0.1 - - [17/Feb/2025 13:19:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:20:02 - 127.0.0.1 - - [17/Feb/2025 13:20:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:20:32 - 127.0.0.1 - - [17/Feb/2025 13:20:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:21:02 - 127.0.0.1 - - [17/Feb/2025 13:21:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:21:13 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 13:21:13 - [33mPress CTRL+C to quit[0m
+2025-02-17 13:21:13 -  * Restarting with stat
+2025-02-17 13:21:13 -  * Debugger is active!
+2025-02-17 13:21:13 -  * Debugger PIN: 902-165-435
+2025-02-17 13:21:17 - 127.0.0.1 - - [17/Feb/2025 13:21:17] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /chat HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /chat.css HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /main.css HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /notifications.js HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /js/location.js HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 13:21:18 - 172.20.0.1 - - [17/Feb/2025 13:21:18] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 13:21:26 - Received audio upload request
+2025-02-17 13:21:26 - Files in request: dict_keys(['audio'])
+2025-02-17 13:21:26 - Audio file name: emergency_recording.wav
+2025-02-17 13:21:26 - Audio file successfully saved at: /app/audio_uploads/emergency_recording_20250217_132126.wav
+2025-02-17 13:21:26 - 172.20.0.1 - - [17/Feb/2025 13:21:26] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:21:38 - 172.20.0.1 - - [17/Feb/2025 13:21:38] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:38 - 172.20.0.1 - - [17/Feb/2025 13:21:38] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:38 - 172.20.0.1 - - [17/Feb/2025 13:21:38] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:38 - 172.20.0.1 - - [17/Feb/2025 13:21:38] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:38 - 172.20.0.1 - - [17/Feb/2025 13:21:38] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:39 - 172.20.0.1 - - [17/Feb/2025 13:21:39] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:40 - 172.20.0.1 - - [17/Feb/2025 13:21:40] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:41 - 172.20.0.1 - - [17/Feb/2025 13:21:41] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:42 - 172.20.0.1 - - [17/Feb/2025 13:21:42] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:43 - 172.20.0.1 - - [17/Feb/2025 13:21:43] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:44 - 172.20.0.1 - - [17/Feb/2025 13:21:44] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:45 - 172.20.0.1 - - [17/Feb/2025 13:21:45] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:21:47 - 127.0.0.1 - - [17/Feb/2025 13:21:47] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:22:00 - Received chat POST request
+2025-02-17 13:22:00 - Form data: ImmutableMultiDict([('name', ''), ('contact', ''), ('latitude', '40.6150928'), ('longitude', '22.9777683'), ('description', 'kjlhl'), ('audio_filename', 'emergency_recording_20250217_132126.wav')])
+2025-02-17 13:22:00 - Processing emergency report with audio: emergency_recording_20250217_132126.wav
+2025-02-17 13:22:00 - Emergency report saved with ID: 7
+2025-02-17 13:22:00 - 
+            Emergency Report:
+            ID: 7
+            Name: 
+            Contact: 
+            Location: coordinates: 40.6150928, 22.9777683
+            Description: kjlhl
+            Audio Recording: emergency_recording_20250217_132126.wav
+            Timestamp: 2025-02-17 13:22:00.418724
+            
+2025-02-17 13:22:00 - 172.20.0.1 - - [17/Feb/2025 13:22:00] "POST /chat HTTP/1.1" 200 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:08 - 172.20.0.1 - - [17/Feb/2025 13:22:08] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:09 - 172.20.0.1 - - [17/Feb/2025 13:22:09] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:22:17 - 127.0.0.1 - - [17/Feb/2025 13:22:17] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:22:47 - 127.0.0.1 - - [17/Feb/2025 13:22:47] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:23:17 - 127.0.0.1 - - [17/Feb/2025 13:23:17] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:23:48 - 127.0.0.1 - - [17/Feb/2025 13:23:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:24:18 - 127.0.0.1 - - [17/Feb/2025 13:24:18] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:24:48 - 127.0.0.1 - - [17/Feb/2025 13:24:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:25:18 - 127.0.0.1 - - [17/Feb/2025 13:25:18] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:25:48 - 127.0.0.1 - - [17/Feb/2025 13:25:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:26:18 - 127.0.0.1 - - [17/Feb/2025 13:26:18] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:26:48 - 127.0.0.1 - - [17/Feb/2025 13:26:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:27:02 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:27:02 -  * Restarting with stat
+2025-02-17 13:27:02 -  * Debugger is active!
+2025-02-17 13:27:02 -  * Debugger PIN: 902-165-435
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /chat HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /chat.css HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /notifications.js HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /main.css HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /js/location.js HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 13:27:16 - 172.20.0.1 - - [17/Feb/2025 13:27:16] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 13:27:17 - 172.20.0.1 - - [17/Feb/2025 13:27:17] "GET / HTTP/1.1" 200 -
+2025-02-17 13:27:18 - 127.0.0.1 - - [17/Feb/2025 13:27:18] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:27:23 - 172.20.0.1 - - [17/Feb/2025 13:27:23] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:27:28 - 172.20.0.1 - - [17/Feb/2025 13:27:28] "GET / HTTP/1.1" 200 -
+2025-02-17 13:27:30 - 172.20.0.1 - - [17/Feb/2025 13:27:30] "GET / HTTP/1.1" 200 -
+2025-02-17 13:27:48 - 127.0.0.1 - - [17/Feb/2025 13:27:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:28:09 - Received chat POST request
+2025-02-17 13:28:09 - Form data: ImmutableMultiDict([('name', ''), ('contact', ''), ('latitude', '40.6400629'), ('longitude', '22.9444191'), ('description', 'hgytdfh'), ('audio_filename', 'emergency_recording_20250217_132723.wav')])
+2025-02-17 13:28:09 - Processing emergency report with audio: emergency_recording_20250217_132723.wav
+2025-02-17 13:28:09 - Emergency report saved with ID: 8
+2025-02-17 13:28:09 - 
+            Emergency Report:
+            ID: 8
+            Name: 
+            Contact: 
+            Location: coordinates: 40.6400629, 22.9444191
+            Description: hgytdfh
+            Audio Recording: emergency_recording_20250217_132723.wav
+            Timestamp: 2025-02-17 13:28:09.120124
+            
+2025-02-17 13:28:09 - 172.20.0.1 - - [17/Feb/2025 13:28:09] "POST /chat HTTP/1.1" 200 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:16 - 172.20.0.1 - - [17/Feb/2025 13:28:16] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:17 - 172.20.0.1 - - [17/Feb/2025 13:28:17] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 127.0.0.1 - - [17/Feb/2025 13:28:18] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:18 - 172.20.0.1 - - [17/Feb/2025 13:28:18] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:19 - 172.20.0.1 - - [17/Feb/2025 13:28:19] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:28:48 - 127.0.0.1 - - [17/Feb/2025 13:28:48] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:29:15 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 13:29:15 - [33mPress CTRL+C to quit[0m
+2025-02-17 13:29:15 -  * Restarting with stat
+2025-02-17 13:29:15 -  * Debugger is active!
+2025-02-17 13:29:15 -  * Debugger PIN: 609-114-249
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /chat HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /notifications.js HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /js/location.js HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /chat.css HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /main.css HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 13:29:19 - 172.20.0.1 - - [17/Feb/2025 13:29:19] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 13:29:20 - 127.0.0.1 - - [17/Feb/2025 13:29:20] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:29:27 - 172.20.0.1 - - [17/Feb/2025 13:29:27] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:29:50 - 127.0.0.1 - - [17/Feb/2025 13:29:50] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:30:08 - Received chat POST request
+2025-02-17 13:30:08 - Form data: ImmutableMultiDict([('name', ''), ('contact', ''), ('latitude', '40.6150822'), ('longitude', '22.9777983'), ('description', 'fdsgfd'), ('audio_filename', 'emergency_recording_20250217_132927.wav')])
+2025-02-17 13:30:08 - Processing emergency report with audio: emergency_recording_20250217_132927.wav
+2025-02-17 13:30:08 - Emergency report saved with ID: 9
+2025-02-17 13:30:08 - 
+            Emergency Report:
+            ID: 9
+            Name: 
+            Contact: 
+            Location: coordinates: 40.6150822, 22.9777983
+            Description: fdsgfd
+            Audio Recording: emergency_recording_20250217_132927.wav
+            Timestamp: 2025-02-17 13:30:08.385666
+            
+2025-02-17 13:30:08 - 172.20.0.1 - - [17/Feb/2025 13:30:08] "POST /chat HTTP/1.1" 200 -
+2025-02-17 13:30:20 - 127.0.0.1 - - [17/Feb/2025 13:30:20] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:30:50 - 127.0.0.1 - - [17/Feb/2025 13:30:50] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:31:20 - 127.0.0.1 - - [17/Feb/2025 13:31:20] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:31:50 - 127.0.0.1 - - [17/Feb/2025 13:31:50] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:32:20 - 127.0.0.1 - - [17/Feb/2025 13:32:20] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:32:50 - 127.0.0.1 - - [17/Feb/2025 13:32:50] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:33:08 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:33:08 -  * Restarting with stat
+2025-02-17 13:33:08 -  * Debugger is active!
+2025-02-17 13:33:08 -  * Debugger PIN: 609-114-249
+2025-02-17 13:33:20 - 127.0.0.1 - - [17/Feb/2025 13:33:20] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:33:42 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:33:42 -  * Restarting with stat
+2025-02-17 13:33:42 -  * Debugger is active!
+2025-02-17 13:33:42 -  * Debugger PIN: 609-114-249
+2025-02-17 13:33:58 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 13:33:58 - [33mPress CTRL+C to quit[0m
+2025-02-17 13:33:58 -  * Restarting with stat
+2025-02-17 13:33:58 -  * Debugger is active!
+2025-02-17 13:33:58 -  * Debugger PIN: 651-146-084
+2025-02-17 13:34:03 - 127.0.0.1 - - [17/Feb/2025 13:34:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:34:14 - Upload folder path: /app/audio_reports
+2025-02-17 13:34:14 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_133414.wav
+2025-02-17 13:34:14 - 172.20.0.1 - - [17/Feb/2025 13:34:14] "GET /chat HTTP/1.1" 200 -
+2025-02-17 13:34:14 - Audio file successfully saved: emergency_recording_20250217_133414.wav
+2025-02-17 13:34:14 - 172.20.0.1 - - [17/Feb/2025 13:34:14] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:34:15 - 172.20.0.1 - - [17/Feb/2025 13:34:15] "GET /notifications.js HTTP/1.1" 200 -
+2025-02-17 13:34:15 - 172.20.0.1 - - [17/Feb/2025 13:34:15] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 13:34:15 - 172.20.0.1 - - [17/Feb/2025 13:34:15] "GET /main.css HTTP/1.1" 200 -
+2025-02-17 13:34:15 - 172.20.0.1 - - [17/Feb/2025 13:34:15] "GET /chat.css HTTP/1.1" 200 -
+2025-02-17 13:34:15 - 172.20.0.1 - - [17/Feb/2025 13:34:15] "GET /js/location.js HTTP/1.1" 200 -
+2025-02-17 13:34:16 - 172.20.0.1 - - [17/Feb/2025 13:34:16] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 13:34:23 - Upload folder path: /app/audio_reports
+2025-02-17 13:34:23 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_133423.wav
+2025-02-17 13:34:23 - Audio file successfully saved: emergency_recording_20250217_133423.wav
+2025-02-17 13:34:23 - 172.20.0.1 - - [17/Feb/2025 13:34:23] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:34:26 - 172.20.0.1 - - [17/Feb/2025 13:34:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-17 13:34:33 - 127.0.0.1 - - [17/Feb/2025 13:34:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:52 - 172.20.0.1 - - [17/Feb/2025 13:34:52] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:53 - 172.20.0.1 - - [17/Feb/2025 13:34:53] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:54 - 172.20.0.1 - - [17/Feb/2025 13:34:54] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:55 - 172.20.0.1 - - [17/Feb/2025 13:34:55] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:34:56 - 172.20.0.1 - - [17/Feb/2025 13:34:56] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:03 - 127.0.0.1 - - [17/Feb/2025 13:35:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:35:13 - Received chat POST request
+2025-02-17 13:35:13 - Form data: ImmutableMultiDict([('name', ''), ('contact', ''), ('latitude', '40.6150911'), ('longitude', '22.9777698'), ('description', 'dtgdf'), ('audio_filename', 'emergency_recording_20250217_133423.wav')])
+2025-02-17 13:35:13 - Processing emergency report with audio: emergency_recording_20250217_133423.wav
+2025-02-17 13:35:13 - Emergency report saved with ID: 10
+2025-02-17 13:35:13 - 
+            Emergency Report:
+            ID: 10
+            Name: 
+            Contact: 
+            Location: coordinates: 40.6150911, 22.9777698
+            Description: dtgdf
+            Audio Recording: emergency_recording_20250217_133423.wav
+            Timestamp: 2025-02-17 13:35:13.269378
+            
+2025-02-17 13:35:13 - 172.20.0.1 - - [17/Feb/2025 13:35:13] "POST /chat HTTP/1.1" 200 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:16 - 172.20.0.1 - - [17/Feb/2025 13:35:16] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:35:33 - 127.0.0.1 - - [17/Feb/2025 13:35:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:36:03 - 127.0.0.1 - - [17/Feb/2025 13:36:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:36:33 - 127.0.0.1 - - [17/Feb/2025 13:36:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:37:03 - 127.0.0.1 - - [17/Feb/2025 13:37:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:37:33 - 127.0.0.1 - - [17/Feb/2025 13:37:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:38:03 - 127.0.0.1 - - [17/Feb/2025 13:38:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:38:33 - 127.0.0.1 - - [17/Feb/2025 13:38:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:39:03 - 127.0.0.1 - - [17/Feb/2025 13:39:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:39:33 - 127.0.0.1 - - [17/Feb/2025 13:39:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:40:03 - 127.0.0.1 - - [17/Feb/2025 13:40:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:40:33 - 127.0.0.1 - - [17/Feb/2025 13:40:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:41:03 - 127.0.0.1 - - [17/Feb/2025 13:41:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:41:33 - 127.0.0.1 - - [17/Feb/2025 13:41:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:42:03 - 127.0.0.1 - - [17/Feb/2025 13:42:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:42:33 - 127.0.0.1 - - [17/Feb/2025 13:42:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:43:03 - 127.0.0.1 - - [17/Feb/2025 13:43:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:43:11 -  * Detected change in '/app/app.py', reloading
+2025-02-17 13:43:11 -  * Restarting with stat
+2025-02-17 13:43:11 -  * Debugger is active!
+2025-02-17 13:43:11 -  * Debugger PIN: 651-146-084
+2025-02-17 13:43:33 - 127.0.0.1 - - [17/Feb/2025 13:43:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:44:03 - 127.0.0.1 - - [17/Feb/2025 13:44:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:44:33 - 127.0.0.1 - - [17/Feb/2025 13:44:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:45:03 - 127.0.0.1 - - [17/Feb/2025 13:45:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:45:33 - 127.0.0.1 - - [17/Feb/2025 13:45:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:45:40 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 13:45:40 - [33mPress CTRL+C to quit[0m
+2025-02-17 13:45:40 -  * Restarting with stat
+2025-02-17 13:45:40 -  * Debugger is active!
+2025-02-17 13:45:40 -  * Debugger PIN: 116-445-259
+2025-02-17 13:45:44 - 127.0.0.1 - - [17/Feb/2025 13:45:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /chat HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /chat.css HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /main.css HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /notifications.js HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "GET /js/location.js HTTP/1.1" 200 -
+2025-02-17 13:45:45 - 172.20.0.1 - - [17/Feb/2025 13:45:45] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 13:45:53 - Upload folder path: /app/audio_reports
+2025-02-17 13:45:53 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_134553.wav
+2025-02-17 13:45:53 - Audio file successfully saved: emergency_recording_20250217_134553.wav
+2025-02-17 13:45:53 - Emergency report created with ID: 11
+2025-02-17 13:45:53 - 172.20.0.1 - - [17/Feb/2025 13:45:53] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "GET /css/styles.css HTTP/1.1" 200 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:45:58 - 172.20.0.1 - - [17/Feb/2025 13:45:58] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 13:46:14 - 127.0.0.1 - - [17/Feb/2025 13:46:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:46:44 - 127.0.0.1 - - [17/Feb/2025 13:46:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:47:14 - 127.0.0.1 - - [17/Feb/2025 13:47:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:47:44 - 127.0.0.1 - - [17/Feb/2025 13:47:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:48:14 - 127.0.0.1 - - [17/Feb/2025 13:48:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:48:44 - 127.0.0.1 - - [17/Feb/2025 13:48:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:49:14 - 127.0.0.1 - - [17/Feb/2025 13:49:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:49:45 - 127.0.0.1 - - [17/Feb/2025 13:49:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:50:15 - 127.0.0.1 - - [17/Feb/2025 13:50:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:50:45 - 127.0.0.1 - - [17/Feb/2025 13:50:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:51:15 - 127.0.0.1 - - [17/Feb/2025 13:51:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:51:45 - 127.0.0.1 - - [17/Feb/2025 13:51:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:52:15 - 127.0.0.1 - - [17/Feb/2025 13:52:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:52:45 - 127.0.0.1 - - [17/Feb/2025 13:52:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:53:15 - 127.0.0.1 - - [17/Feb/2025 13:53:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:53:45 - 127.0.0.1 - - [17/Feb/2025 13:53:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:54:15 - 127.0.0.1 - - [17/Feb/2025 13:54:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:54:45 - 127.0.0.1 - - [17/Feb/2025 13:54:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:55:15 - 127.0.0.1 - - [17/Feb/2025 13:55:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:55:45 - 127.0.0.1 - - [17/Feb/2025 13:55:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:56:15 - 127.0.0.1 - - [17/Feb/2025 13:56:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:56:45 - 127.0.0.1 - - [17/Feb/2025 13:56:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:57:15 - 127.0.0.1 - - [17/Feb/2025 13:57:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:57:45 - 127.0.0.1 - - [17/Feb/2025 13:57:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:58:15 - 127.0.0.1 - - [17/Feb/2025 13:58:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:58:45 - 127.0.0.1 - - [17/Feb/2025 13:58:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:59:15 - 127.0.0.1 - - [17/Feb/2025 13:59:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 13:59:45 - 127.0.0.1 - - [17/Feb/2025 13:59:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:00:15 - 127.0.0.1 - - [17/Feb/2025 14:00:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:00:45 - 127.0.0.1 - - [17/Feb/2025 14:00:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:01:15 - 127.0.0.1 - - [17/Feb/2025 14:01:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:01:45 - 127.0.0.1 - - [17/Feb/2025 14:01:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:02:15 - 127.0.0.1 - - [17/Feb/2025 14:02:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:02:45 - 127.0.0.1 - - [17/Feb/2025 14:02:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:03:15 - 127.0.0.1 - - [17/Feb/2025 14:03:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:03:45 - 127.0.0.1 - - [17/Feb/2025 14:03:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:04:15 - 127.0.0.1 - - [17/Feb/2025 14:04:15] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:04:45 - 127.0.0.1 - - [17/Feb/2025 14:04:45] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:27:58 - 127.0.0.1 - - [17/Feb/2025 14:27:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:28:03 - 172.20.0.1 - - [17/Feb/2025 14:28:03] "GET / HTTP/1.1" 200 -
+2025-02-17 14:28:28 - 127.0.0.1 - - [17/Feb/2025 14:28:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:28:58 - 127.0.0.1 - - [17/Feb/2025 14:28:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:29:28 - 127.0.0.1 - - [17/Feb/2025 14:29:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:29:58 - 127.0.0.1 - - [17/Feb/2025 14:29:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:30:28 - 127.0.0.1 - - [17/Feb/2025 14:30:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:30:58 - 127.0.0.1 - - [17/Feb/2025 14:30:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:31:28 - 127.0.0.1 - - [17/Feb/2025 14:31:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:31:58 - 127.0.0.1 - - [17/Feb/2025 14:31:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:32:28 - 127.0.0.1 - - [17/Feb/2025 14:32:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:32:58 - 127.0.0.1 - - [17/Feb/2025 14:32:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:33:28 - 127.0.0.1 - - [17/Feb/2025 14:33:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:33:58 - 127.0.0.1 - - [17/Feb/2025 14:33:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:34:28 - 127.0.0.1 - - [17/Feb/2025 14:34:28] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:34:58 - 127.0.0.1 - - [17/Feb/2025 14:34:58] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:35:29 - 127.0.0.1 - - [17/Feb/2025 14:35:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:35:59 - 127.0.0.1 - - [17/Feb/2025 14:35:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:36:29 - 127.0.0.1 - - [17/Feb/2025 14:36:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:36:59 - 127.0.0.1 - - [17/Feb/2025 14:36:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:37:29 - 127.0.0.1 - - [17/Feb/2025 14:37:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:37:59 - 127.0.0.1 - - [17/Feb/2025 14:37:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:38:29 - 127.0.0.1 - - [17/Feb/2025 14:38:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:38:59 - 127.0.0.1 - - [17/Feb/2025 14:38:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:39:29 - 127.0.0.1 - - [17/Feb/2025 14:39:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:39:59 - 127.0.0.1 - - [17/Feb/2025 14:39:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:40:29 - 127.0.0.1 - - [17/Feb/2025 14:40:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:40:59 - 127.0.0.1 - - [17/Feb/2025 14:40:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:41:29 - 127.0.0.1 - - [17/Feb/2025 14:41:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:41:59 - 127.0.0.1 - - [17/Feb/2025 14:41:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:42:29 - 127.0.0.1 - - [17/Feb/2025 14:42:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:42:59 - 127.0.0.1 - - [17/Feb/2025 14:42:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:43:29 - 127.0.0.1 - - [17/Feb/2025 14:43:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:43:59 - 127.0.0.1 - - [17/Feb/2025 14:43:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:44:29 - 127.0.0.1 - - [17/Feb/2025 14:44:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:44:59 - 127.0.0.1 - - [17/Feb/2025 14:44:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:45:29 - 127.0.0.1 - - [17/Feb/2025 14:45:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:45:59 - 127.0.0.1 - - [17/Feb/2025 14:45:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:46:29 - 127.0.0.1 - - [17/Feb/2025 14:46:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:46:59 - 127.0.0.1 - - [17/Feb/2025 14:46:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:47:29 - 127.0.0.1 - - [17/Feb/2025 14:47:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:47:59 - 127.0.0.1 - - [17/Feb/2025 14:47:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:48:29 - 127.0.0.1 - - [17/Feb/2025 14:48:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:48:59 - 127.0.0.1 - - [17/Feb/2025 14:48:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:49:29 - 127.0.0.1 - - [17/Feb/2025 14:49:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:49:59 - 127.0.0.1 - - [17/Feb/2025 14:49:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:50:29 - 127.0.0.1 - - [17/Feb/2025 14:50:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:50:59 - 127.0.0.1 - - [17/Feb/2025 14:50:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:51:29 - 127.0.0.1 - - [17/Feb/2025 14:51:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:51:59 - 127.0.0.1 - - [17/Feb/2025 14:51:59] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:52:29 - 127.0.0.1 - - [17/Feb/2025 14:52:29] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:53:00 - 127.0.0.1 - - [17/Feb/2025 14:53:00] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:53:30 - 127.0.0.1 - - [17/Feb/2025 14:53:30] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:54:00 - 127.0.0.1 - - [17/Feb/2025 14:54:00] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:54:30 - 127.0.0.1 - - [17/Feb/2025 14:54:30] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:55:00 - 127.0.0.1 - - [17/Feb/2025 14:55:00] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:55:30 - 127.0.0.1 - - [17/Feb/2025 14:55:30] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:56:00 - 127.0.0.1 - - [17/Feb/2025 14:56:00] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:56:30 - 127.0.0.1 - - [17/Feb/2025 14:56:30] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:56:35 -  * Detected change in '/app/app.py', reloading
+2025-02-17 14:56:35 -  * Restarting with stat
+2025-02-17 14:56:35 -  * Debugger is active!
+2025-02-17 14:56:35 -  * Debugger PIN: 116-445-259
+2025-02-17 14:57:00 - 127.0.0.1 - - [17/Feb/2025 14:57:00] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 14:57:22 -  * Detected change in '/app/app.py', reloading
+2025-02-17 14:57:22 -  * Restarting with stat
+2025-02-17 15:12:27 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 15:12:27 - [33mPress CTRL+C to quit[0m
+2025-02-17 15:12:27 -  * Restarting with stat
+2025-02-17 15:12:28 -  * Debugger is active!
+2025-02-17 15:12:28 -  * Debugger PIN: 133-664-851
+2025-02-17 15:12:32 - 127.0.0.1 - - [17/Feb/2025 15:12:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:12:33 - 172.20.0.1 - - [17/Feb/2025 15:12:33] "GET / HTTP/1.1" 200 -
+2025-02-17 15:12:33 - 172.20.0.1 - - [17/Feb/2025 15:12:33] "[36mGET /css/style.css HTTP/1.1[0m" 304 -
+2025-02-17 15:12:33 - 172.20.0.1 - - [17/Feb/2025 15:12:33] "GET /api/statistics HTTP/1.1" 200 -
+2025-02-17 15:12:33 - 172.20.0.1 - - [17/Feb/2025 15:12:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "GET /chat HTTP/1.1" 200 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "[36mGET /main.css HTTP/1.1[0m" 304 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "[36mGET /chat.css HTTP/1.1[0m" 304 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "[36mGET /notifications.js HTTP/1.1[0m" 304 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "[36mGET /js/location.js HTTP/1.1[0m" 304 -
+2025-02-17 15:12:35 - 172.20.0.1 - - [17/Feb/2025 15:12:35] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 15:12:46 - Upload folder path: /app/audio_reports
+2025-02-17 15:12:46 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_151246.wav
+2025-02-17 15:12:46 - Audio file successfully saved: emergency_recording_20250217_151246.wav
+2025-02-17 15:12:46 - Transcription error: 
+
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-02-17 15:12:46 - Transcription failed: 
+
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-02-17 15:12:46 - Emergency report created with ID: 12
+2025-02-17 15:12:46 - 172.20.0.1 - - [17/Feb/2025 15:12:46] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 15:13:02 - 127.0.0.1 - - [17/Feb/2025 15:13:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:03 - 172.20.0.1 - - [17/Feb/2025 15:13:03] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "GET /chat HTTP/1.1" 200 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[36mGET /main.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[36mGET /notifications.js HTTP/1.1[0m" 304 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[36mGET /js/location.js HTTP/1.1[0m" 304 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[36mGET /js/voice.js HTTP/1.1[0m" 304 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[36mGET /chat.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:14 - 172.20.0.1 - - [17/Feb/2025 15:13:14] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 15:13:21 - Upload folder path: /app/audio_reports
+2025-02-17 15:13:21 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_151321.wav
+2025-02-17 15:13:21 - Audio file successfully saved: emergency_recording_20250217_151321.wav
+2025-02-17 15:13:21 - Transcription error: 
+
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-02-17 15:13:21 - Transcription failed: 
+
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-02-17 15:13:21 - Emergency report created with ID: 13
+2025-02-17 15:13:21 - 172.20.0.1 - - [17/Feb/2025 15:13:21] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:30 - 172.20.0.1 - - [17/Feb/2025 15:13:30] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:31 - 172.20.0.1 - - [17/Feb/2025 15:13:31] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 127.0.0.1 - - [17/Feb/2025 15:13:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:13:32 - 172.20.0.1 - - [17/Feb/2025 15:13:32] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:14:02 - 127.0.0.1 - - [17/Feb/2025 15:14:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:14:32 - 127.0.0.1 - - [17/Feb/2025 15:14:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:15:02 - 127.0.0.1 - - [17/Feb/2025 15:15:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:15:32 - 127.0.0.1 - - [17/Feb/2025 15:15:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:16:02 - 127.0.0.1 - - [17/Feb/2025 15:16:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:16:32 - 127.0.0.1 - - [17/Feb/2025 15:16:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:17:02 - 127.0.0.1 - - [17/Feb/2025 15:17:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:17:32 - 127.0.0.1 - - [17/Feb/2025 15:17:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:18:02 - 127.0.0.1 - - [17/Feb/2025 15:18:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:18:32 - 127.0.0.1 - - [17/Feb/2025 15:18:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:19:02 - 127.0.0.1 - - [17/Feb/2025 15:19:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:19:32 - 127.0.0.1 - - [17/Feb/2025 15:19:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:20:02 - 127.0.0.1 - - [17/Feb/2025 15:20:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:20:32 - 127.0.0.1 - - [17/Feb/2025 15:20:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:21:02 - 127.0.0.1 - - [17/Feb/2025 15:21:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:21:32 - 127.0.0.1 - - [17/Feb/2025 15:21:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:22:02 - 127.0.0.1 - - [17/Feb/2025 15:22:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:22:32 - 127.0.0.1 - - [17/Feb/2025 15:22:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:23:02 - 127.0.0.1 - - [17/Feb/2025 15:23:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:23:32 - 127.0.0.1 - - [17/Feb/2025 15:23:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:24:02 - 127.0.0.1 - - [17/Feb/2025 15:24:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:24:32 - 127.0.0.1 - - [17/Feb/2025 15:24:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:25:02 - 127.0.0.1 - - [17/Feb/2025 15:25:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:25:32 - 127.0.0.1 - - [17/Feb/2025 15:25:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:26:02 - 127.0.0.1 - - [17/Feb/2025 15:26:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:26:32 - 127.0.0.1 - - [17/Feb/2025 15:26:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:27:02 - 127.0.0.1 - - [17/Feb/2025 15:27:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:27:32 - 127.0.0.1 - - [17/Feb/2025 15:27:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:28:02 - 127.0.0.1 - - [17/Feb/2025 15:28:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:28:05 - 172.20.0.1 - - [17/Feb/2025 15:28:05] "GET / HTTP/1.1" 200 -
+2025-02-17 15:28:10 - 172.20.0.1 - - [17/Feb/2025 15:28:10] "GET / HTTP/1.1" 200 -
+2025-02-17 15:28:10 - 172.20.0.1 - - [17/Feb/2025 15:28:10] "GET / HTTP/1.1" 200 -
+2025-02-17 15:28:32 - 127.0.0.1 - - [17/Feb/2025 15:28:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:29:02 - 127.0.0.1 - - [17/Feb/2025 15:29:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:29:32 - 127.0.0.1 - - [17/Feb/2025 15:29:32] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:30:02 - 127.0.0.1 - - [17/Feb/2025 15:30:02] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:30:33 - 127.0.0.1 - - [17/Feb/2025 15:30:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:31:03 - 127.0.0.1 - - [17/Feb/2025 15:31:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:31:33 - 127.0.0.1 - - [17/Feb/2025 15:31:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:32:03 - 127.0.0.1 - - [17/Feb/2025 15:32:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:32:33 - 127.0.0.1 - - [17/Feb/2025 15:32:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:33:03 - 127.0.0.1 - - [17/Feb/2025 15:33:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:33:33 - 127.0.0.1 - - [17/Feb/2025 15:33:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:34:03 - 127.0.0.1 - - [17/Feb/2025 15:34:03] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:34:33 - 127.0.0.1 - - [17/Feb/2025 15:34:33] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:34:52 -  * Detected change in '/app/app.py', reloading
+2025-02-17 15:34:53 -  * Restarting with stat
+2025-02-17 15:37:39 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 15:37:39 - [33mPress CTRL+C to quit[0m
+2025-02-17 15:37:39 -  * Restarting with stat
+2025-02-17 15:37:39 -  * Debugger is active!
+2025-02-17 15:37:39 -  * Debugger PIN: 108-481-730
+2025-02-17 15:37:43 - 127.0.0.1 - - [17/Feb/2025 15:37:43] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:38:13 - 127.0.0.1 - - [17/Feb/2025 15:38:13] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:38:43 - 127.0.0.1 - - [17/Feb/2025 15:38:43] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:39:13 - 127.0.0.1 - - [17/Feb/2025 15:39:13] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:39:43 - 127.0.0.1 - - [17/Feb/2025 15:39:43] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "GET /chat HTTP/1.1" 200 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "[36mGET /main.css HTTP/1.1[0m" 304 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "[36mGET /chat.css HTTP/1.1[0m" 304 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "[36mGET /notifications.js HTTP/1.1[0m" 304 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "[36mGET /js/location.js HTTP/1.1[0m" 304 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "GET /js/voice.js HTTP/1.1" 200 -
+2025-02-17 15:39:48 - 172.20.0.1 - - [17/Feb/2025 15:39:48] "[33mGET /images/emergency-bg.jpg HTTP/1.1[0m" 404 -
+2025-02-17 15:39:59 - Upload folder path: /app/audio_reports
+2025-02-17 15:39:59 - Attempting to save audio file to: /app/audio_reports/emergency_recording_20250217_153959.wav
+2025-02-17 15:39:59 - Audio file successfully saved: emergency_recording_20250217_153959.wav
+2025-02-17 15:39:59 - Audio conversion error: [Errno 2] No such file or directory: 'ffprobe'
+2025-02-17 15:39:59 - Transcription error: [Errno 2] No such file or directory: 'ffprobe'
+2025-02-17 15:39:59 - Transcription failed: [Errno 2] No such file or directory: 'ffprobe'
+2025-02-17 15:39:59 - Emergency report created with ID: 14
+2025-02-17 15:39:59 - 172.20.0.1 - - [17/Feb/2025 15:39:59] "POST /upload-audio HTTP/1.1" 200 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "GET /admin/reports HTTP/1.1" 200 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[36mGET /css/styles.css HTTP/1.1[0m" 304 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_153959.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_151321.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_134553.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_151246.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_133423.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_132927.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_132723.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_132126.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_125636.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_123824.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:10 - 172.20.0.1 - - [17/Feb/2025 15:40:10] "[33mGET /uploads/emergency_recording_20250217_123601.wav HTTP/1.1[0m" 404 -
+2025-02-17 15:40:13 - 127.0.0.1 - - [17/Feb/2025 15:40:13] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:40:43 - 127.0.0.1 - - [17/Feb/2025 15:40:43] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:41:14 - 127.0.0.1 - - [17/Feb/2025 15:41:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:41:44 - 127.0.0.1 - - [17/Feb/2025 15:41:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:42:14 - 127.0.0.1 - - [17/Feb/2025 15:42:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:42:44 - 127.0.0.1 - - [17/Feb/2025 15:42:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:43:14 - 127.0.0.1 - - [17/Feb/2025 15:43:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:43:44 - 127.0.0.1 - - [17/Feb/2025 15:43:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:44:14 - 127.0.0.1 - - [17/Feb/2025 15:44:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:44:44 - 127.0.0.1 - - [17/Feb/2025 15:44:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:45:14 - 127.0.0.1 - - [17/Feb/2025 15:45:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:45:44 - 127.0.0.1 - - [17/Feb/2025 15:45:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:46:13 -  * Detected change in '/app/app.py', reloading
+2025-02-17 15:46:13 -  * Restarting with stat
+2025-02-17 15:46:13 -  * Debugger is active!
+2025-02-17 15:46:13 -  * Debugger PIN: 108-481-730
+2025-02-17 15:46:14 - 127.0.0.1 - - [17/Feb/2025 15:46:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:46:32 -  * Detected change in '/app/app.py', reloading
+2025-02-17 15:46:32 -  * Restarting with stat
+2025-02-17 15:46:32 -  * Debugger is active!
+2025-02-17 15:46:32 -  * Debugger PIN: 108-481-730
+2025-02-17 15:46:44 - 127.0.0.1 - - [17/Feb/2025 15:46:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:47:14 - 127.0.0.1 - - [17/Feb/2025 15:47:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:47:44 - 127.0.0.1 - - [17/Feb/2025 15:47:44] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 15:48:14 - 127.0.0.1 - - [17/Feb/2025 15:48:14] "GET /api/debug/db HTTP/1.1" 200 -
+2025-02-17 18:19:31 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000
+2025-02-17 18:19:31 - [33mPress CTRL+C to quit[0m
+2025-02-17 18:19:31 -  * Restarting with stat
+2025-02-17 18:19:31 -  * Debugger is active!
+2025-02-17 18:19:31 -  * Debugger PIN: 110-597-134
+2025-02-17 18:19:35 - 127.0.0.1 - - [17/Feb/2025 18:19:35] "GET /api/debug/db HTTP/1.1" 200 -
