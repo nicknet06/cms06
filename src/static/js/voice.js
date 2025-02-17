@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // DOM Elements
     const methodBtns = document.querySelectorAll('.method-btn');
     const inputSections = document.querySelectorAll('.input-section');
     const recordButton = document.getElementById('recordButton');
@@ -8,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = document.getElementById('submitBtn');
     const emergencyForm = document.getElementById('emergencyForm');
 
+    // Recording state variables
     let mediaRecorder;
     let audioChunks = [];
     let startTime;
@@ -15,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let isRecording = false;
     let stream;
 
-    // Method switching
+    // Method switching (Text/Voice toggle)
     methodBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             methodBtns.forEach(b => b.classList.remove('active'));
@@ -99,14 +101,17 @@ document.addEventListener('DOMContentLoaded', function() {
         recordButton.addEventListener('click', async () => {
             if (!isRecording) {
                 try {
+                    // Request microphone access
                     stream = await navigator.mediaDevices.getUserMedia({ audio: true });
                     mediaRecorder = new MediaRecorder(stream);
                     audioChunks = [];
 
+                    // Handle data available event
                     mediaRecorder.ondataavailable = (event) => {
                         audioChunks.push(event.data);
                     };
 
+                    // Handle recording stop event
                     mediaRecorder.onstop = async () => {
                         const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
                         const audioUrl = URL.createObjectURL(audioBlob);
@@ -137,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
                     };
 
+                    // Start recording
                     mediaRecorder.start();
                     startTime = new Date();
                     timerInterval = setInterval(updateTimer, 1000);
@@ -205,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Handle visibility change
+    // Handle visibility change (e.g., when user switches tabs)
     document.addEventListener('visibilitychange', () => {
         if (document.hidden && isRecording) {
             stopRecording();

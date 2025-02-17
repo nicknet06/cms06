@@ -26,8 +26,6 @@ class EmergencyReport(db.Model):
             'created_at': self.created_at.strftime('%Y-%m-%d %H:%M:%S')
         }
 
-
-
 class EmergencyService(db.Model):
     __tablename__ = 'emergency_service'
     id = db.Column(db.Integer, primary_key=True)

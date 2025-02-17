@@ -80,6 +80,10 @@ def chat():
             description = request.form.get('description')
             audio_filename = request.form.get('audio_filename')
 
+            # Validate that at least one of description or audio_filename is provided
+            if not description and not audio_filename:
+                raise ValueError("Either description or audio recording is required")
+
             report = EmergencyReport(
                 name=name,
                 contact=contact,
@@ -92,6 +96,7 @@ def chat():
             try:
                 db.session.add(report)
                 db.session.commit()
+                logging.info(f"Emergency report saved with ID: {report.id}")
             except Exception as db_error:
                 db.session.rollback()
                 logging.error(f"Database error: {str(db_error)}")
@@ -101,6 +106,7 @@ def chat():
 
             log_message = f"""
             Emergency Report:
+            ID: {report.id}
             Name: {name}
             Contact: {contact}
             Location: {location}
@@ -123,6 +129,13 @@ def chat():
                 flash('Emergency services have been notified. Help will arrive in 20 minutes.', 'success')
                 return redirect(url_for('chat'))
 
+        except ValueError as ve:
+            logging.error(f"Validation error: {str(ve)}")
+            if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
+                return jsonify({'error': str(ve)}), 400
+            else:
+                flash(str(ve), 'error')
+                return redirect(url_for('chat'))
         except Exception as e:
             logging.error(f"Error processing emergency report: {str(e)}")
             if request.headers.get('X-Requested-With') == 'XMLHttpRequest':
@@ -132,9 +145,8 @@ def chat():
                 return redirect(url_for('chat'))
 
     return render_template('chat.html',
-                           current_time="2025-02-17 00:16:55",
-                           current_user="nicknet06")
-
+                         current_time=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
+                         current_user="nicknet06")
 
 @app.route('/admin/dashboard')
 def admin_dashboard():
@@ -339,8 +351,14 @@ def upload_audio():
             filename = f'emergency_recording_{timestamp}.wav'
             filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
+            # Ensure the upload directory exists
             os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
+            # Save the file
             audio_file.save(filepath)
+
+            # Log the successful upload
+            logging.info(f"Audio file saved: {filename}")
 
             return jsonify({
                 'filename': filename,

@@ -1,30 +1,39 @@
 FROM alpine:latest
 
-# Install Python, pip, nginx, and MySQL client
-RUN apk add --no-cache python3 py3-pip nginx mysql-client mariadb-connector-c-dev build-base python3-dev
+# Install system dependencies
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    nginx \
+    build-base \
+    python3-dev \
+    curl
 
-# Create app directory
+# Set working directory
 WORKDIR /app
 
-# Create virtual environment and activate it
+# Create and activate virtual environment
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
 # Copy requirements first to leverage Docker cache
 COPY requirements.txt .
-RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# Copy the rest of the application
 COPY src/ .
+COPY nginx.conf /etc/nginx/nginx.conf
 
-# Copy nginx configuration
-COPY nginx.conf /etc/nginx/http.d/default.conf
+# Create necessary directories and set permissions
+RUN mkdir -p /data /app/audio_uploads && \
+    chown -R nobody:nobody /data /app/audio_uploads
 
-# Create necessary directories for nginx
-RUN mkdir -p /run/nginx
-
-# Expose port 80
+# Expose port
 EXPOSE 80
 
-# Start nginx and the Flask app
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:80/ || exit 1
+
+# Command to run the application
 CMD ["sh", "-c", "nginx && python3 app.py"]

@@ -4,41 +4,43 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "80:5000"
     volumes:
       - ./src:/app
-      - emergency_uploads:/app/audio_uploads  # Persist uploads
+      - ./src/static:/app/static
+      - ./src/templates:/app/templates
+      - emergency_uploads:/app/audio_uploads
+      - ./data:/data
     restart: unless-stopped
     environment:
       - FLASK_ENV=production
       - FLASK_APP=app.py
-      - MYSQL_HOST=db
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=your_password
-      - MYSQL_DATABASE=emergency_system
       - FLASK_SECRET_KEY=your-secure-secret-key
+      - SQLALCHEMY_DATABASE_URI=sqlite:///data/db.sqlite3
       - CURRENT_USER=nicknet06
-    depends_on:
-      db:
-        condition: service_healthy
-    command: sh -c "sleep 10 && nginx && python3 app.py"
-
-  db:
-    image: mysql:8.0
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: your_password
-      MYSQL_DATABASE: emergency_system
-    volumes:
-      - ./mysql_data:/var/lib/mysql  # Changed to local directory
-    ports:
-      - "3306:3306"
+      - CURRENT_TIME=2025-02-16 22:42:38
+      - TZ=UTC
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/debug/db"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    command: >
+      sh -c "
+        mkdir -p /data &&
+        mkdir -p /app/audio_uploads &&
+        mkdir -p /app/static &&
+        mkdir -p /app/templates &&
+        chown -R nobody:nobody /data /app/audio_uploads &&
+        python3 app.py
+      "
 
 volumes:
   emergency_uploads:
     driver: local
+
+networks:
+  default:
+    name: cms_network
+    driver: bridge
