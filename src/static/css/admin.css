@@ -162,3 +162,266 @@ body {
 .checkbox-icon.fire {
     background-image: url('/images/fire-icon.png');
 }
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    text-align: right;
+}
+
+/* Dashboard layout */
+.dashboard-container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.map-container {
+    flex: 2;
+    height: 100%;
+}
+
+#services-map {
+    height: 100%;
+    width: 100%;
+}
+
+/* Resources panel */
+.resources-panel {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    display: none;  /* Hidden by default */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+.resource-section {
+    margin-bottom: 2rem;
+}
+
+.resource-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.resource-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.resource-item h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+.resource-item p {
+    margin: 0.25rem 0;
+}
+
+/* Status colors */
+.resource-item.available {
+    border-left: 4px solid #2ecc71;
+}
+
+.resource-item.unavailable {
+    border-left: 4px solid #e74c3c;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .map-container {
+        height: 50vh;
+    }
+
+    .resources-panel {
+        height: 50vh;
+    }
+}
+/* Add these styles to your existing admin.css */
+
+/* Resource Panel Styles */
+.resource-group {
+    margin-bottom: 20px;
+}
+
+.resource-group h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.resource-items {
+    display: grid;
+    gap: 10px;
+}
+
+.resource-item {
+    background: white;
+    border-radius: 4px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-left: 4px solid #ccc;
+}
+
+.resource-item.available {
+    border-left-color: #2ecc71;
+}
+
+.resource-item.unavailable {
+    border-left-color: #e74c3c;
+}
+
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.resource-name {
+    font-weight: bold;
+}
+
+.resource-status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    background: #f0f0f0;
+}
+
+.resource-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.service-header {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    background: #f8f9fa;
+    border-left: 4px solid #2c3e50;
+}
+
+.service-header.hospital { border-left-color: #2ecc71; }
+.service-header.police { border-left-color: #3498db; }
+.service-header.fire { border-left-color: #e74c3c; }
+
+.service-header h2 {
+    margin: 0 0 8px 0;
+}
+
+.service-type {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #2c3e50;
+    color: white;
+    font-size: 0.9em;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #2c3e50;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    font-size: 0.9em;
+}
+
+.back-button:hover {
+    color: #34495e;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Add these styles to your existing admin.css */
+
+/* Resource Panel Styles */
+#resources-panel {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.resource-group {
+    margin-bottom: 15px;
+}
+
+.resource-group h4 {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+.resource-items {
+    display: grid;
+    gap: 8px;
+}
+
+.resource-item {
+    background: white;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+}
+
+.resource-item.available {
+    border-left: 3px solid #2ecc71;
+}
+
+.resource-item.unavailable {
+    border-left: 3px solid #e74c3c;
+}
+
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.service-header {
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.service-header h4 {
+    margin: 0 0 4px 0;
+}
+
+.service-type {
+    font-size: 0.9em;
+    color: #666;
+}

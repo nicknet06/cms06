@@ -18,7 +18,7 @@
         <header class="admin-header">
             <h1>Emergency System Dashboard</h1>
             <div class="admin-info">
-                <span>Current Time: 2025-02-16 13:52:32</span>
+                <span>Current Time: 2025-02-17 01:24:21</span>
                 <span>User: nicknet06</span>
             </div>
         </header>
@@ -89,10 +89,113 @@
                                 </select>
                             </div>
                         </div>
+
+                        <!-- Resources Panel -->
+                        <div id="resources-panel" style="display: none;">
+                            <h3>Service Resources</h3>
+                            <div id="service-details" class="service-details"></div>
+
+                            <div class="resource-group">
+                                <h4>Equipment</h4>
+                                <div id="equipment-list" class="resource-items"></div>
+                            </div>
+
+                            <div class="resource-group">
+                                <h4>Vehicles</h4>
+                                <div id="vehicles-list" class="resource-items"></div>
+                            </div>
+
+                            <div class="resource-group">
+                                <h4>Personnel</h4>
+                                <div id="personnel-list" class="resource-items"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
     </div>
+
+    <script>
+        const map = L.map('map').setView([37.9838, 23.7275], 7);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        async function showResources(serviceId, serviceName, serviceType) {
+            try {
+                const response = await fetch(`/api/services/${serviceId}/resources`);
+                const data = await response.json();
+
+                // Show the resources panel
+                document.getElementById('resources-panel').style.display = 'block';
+
+                // Update service details
+                document.getElementById('service-details').innerHTML = `
+                    <div class="service-header ${serviceType}">
+                        <h4>${serviceName}</h4>
+                        <span class="service-type">${serviceType}</span>
+                    </div>
+                `;
+
+                // Update equipment list
+                document.getElementById('equipment-list').innerHTML = data.equipment.map(item => `
+                    <div class="resource-item ${item.available > 0 ? 'available' : 'unavailable'}">
+                        <div class="resource-header">
+                            <span>${item.name}</span>
+                            <span>${item.available}/${item.quantity}</span>
+                        </div>
+                        <div>Status: ${item.condition}</div>
+                    </div>
+                `).join('');
+
+                // Update vehicles list
+                document.getElementById('vehicles-list').innerHTML = data.vehicles.map(item => `
+                    <div class="resource-item ${item.status === 'available' ? 'available' : 'unavailable'}">
+                        <div class="resource-header">
+                            <span>${item.type} - ${item.model}</span>
+                            <span>${item.status}</span>
+                        </div>
+                        <div>Plate: ${item.plate_number}</div>
+                    </div>
+                `).join('');
+
+                // Update personnel list
+                document.getElementById('personnel-list').innerHTML = data.personnel.map(item => `
+                    <div class="resource-item ${item.status === 'on-duty' ? 'available' : 'unavailable'}">
+                        <div class="resource-header">
+                            <span>${item.name}</span>
+                            <span>${item.status}</span>
+                        </div>
+                        <div>Role: ${item.role}</div>
+                        <div>Specialty: ${item.speciality}</div>
+                    </div>
+                `).join('');
+
+            } catch (error) {
+                console.error('Error loading resources:', error);
+            }
+        }
+
+        // Add markers for emergency services
+        {% for service in services %}
+        L.marker([{{ service.latitude }}, {{ service.longitude }}])
+            .addTo(map)
+            .bindPopup(`
+                <div class="popup-content">
+                    <h3>{{ service.name }}</h3>
+                    <p>{{ service.address }}</p>
+                    <p>{{ service.phone }}</p>
+                </div>
+            `)
+            .on('click', function() {
+                showResources(
+                    {{ service.id }},
+                    '{{ service.name }}',
+                    '{{ service.service_type }}'
+                );
+            });
+        {% endfor %}
+    </script>
 </body>
 </html>
